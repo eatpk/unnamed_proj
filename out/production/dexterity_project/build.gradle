@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+repositories {
+    flatDir {
+        dirs 'lib'
+    }
+}
+
+
+dependencies {
+    implementation name: 'gson-2.8.2'
+    implementation name: 'annotations-17.0.0'
+    implementation 'junit:junit:4.12'
+    implementation 'org.junit.jupiter:junit-jupiter'
+}
